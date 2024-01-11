@@ -2,10 +2,12 @@ import React from 'react'
 import hand from '../assets/images/hand.png'
 import bannerimg from '../assets/images/banner-img.png'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import Mainheader from './Mainheader'
 
 function Welcome() {
   return (
     <>
+    <Mainheader />
     <section className='hm-banner'>
         <div className='container'>
             <div className='row align-items-center'>
@@ -13,7 +15,7 @@ function Welcome() {
                     <div className='hm-banner-content'>
                         <h1>"Empowering efficiency through smart automation in IoT, where intelligence meets innovation to redefine the future."</h1>
                         <p className='text-white'>Register your <strong>NEW HOUSE </strong>here  <img src={hand} alt=''/></p>
-                        <Link to="" className="thm-gr-btn">Register</Link>
+                        <Link to="forgot-password" className="thm-gr-btn">Register</Link>
                        
                     </div>
                 </div>

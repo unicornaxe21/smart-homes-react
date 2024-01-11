@@ -25,20 +25,25 @@ import Addhouse from './component/property/Addhouse';
 import Amenities from './component/property/Amenities';
 import Congralution from './component/Congralution';
 import Welcome from './component/Welcome';
+import VerificationHome from './component/verification/VerificationHome';
+import CaptureFace from './component/verification/CaptureFace';
+import Mainhome from './component/Mainhome';
 
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Login} />
+        <Route exact path="/login" component={Login} />
         <Route exact path="/create-account" component={Createaccount} />
         <Route exact path="/otp" component={Otp} />
         <Route exact path="/confirm-otp" component={Confirmotp} />
         <Route exact path="/forgot-password" component={Forgotpassword} />
         <Route exact path="/verification" component={Verification} />
+        <Route exact path="/verification-home" component={VerificationHome} />
         <Route exact path="/register-success" component={Registrationsuccess} />
         <Route exact path="/newuser" component={Newuser} />
+        <Route exact path="/capture-face" component={CaptureFace} />
         <Route exact path="/user-profile" component={Profile} />
         <Route exact path="/people-list" component={Peoplelist} />
         <Route exact path="/flat-01" component={Flat01} />
@@ -51,6 +56,7 @@ function App() {
         <Route exact path="/amenities" component={Amenities} />
         <Route exact path="/congralution" component={Congralution} />
         <Route exact path="/welcome" component={Welcome} />
+        <Route exact path="/" component={Mainhome} />
         
         </Switch>
     </Router>

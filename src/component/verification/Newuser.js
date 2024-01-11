@@ -22,15 +22,15 @@ function Newuser() {
                   <div className='newuser-cam-blank'></div>
                   <Link to="" className='face'>
                   FaceTime HD Camera</Link>
-                  <Link to="/user-profile" className='cam-btn org'>
+                  <Link to="/welcome" className='cam-btn org'>
                   Capture Image</Link>
                </div>
             </div>
             <div className='col-lg-6'>
                <div className='capture'>
                   <img src={capture} alt='' className='w-100 rounded' />
-                  <Link to="/user-profile" className='cam-btn'>
-                  Capture Image</Link>
+                  <Link to="/welcome" className='cam-btn'>
+                  Confirm</Link>
                </div>
             </div>
          </div>

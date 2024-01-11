@@ -11,7 +11,7 @@ function Propertyheader() {
                 <Link to="/"><img src={logo} alt='' /> </Link>
             </div>
             <div className='propery-headr-icon'>
-                <Link>
+                <Link to="/user-profile">
                 <img src={user} /> 
                 </Link>
             </div>

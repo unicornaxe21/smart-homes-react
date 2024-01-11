@@ -1,5 +1,6 @@
 import React from 'react'
 import Loginheader from './Loginheader'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 function Forgotpassword() {
   return (
@@ -22,7 +23,7 @@ function Forgotpassword() {
                 </div>
              
                 <div className='text-end mt-4'>
-                    <button className='thm-blu-btn text-white' type='button'> Continue</button>
+                    <Link to="/verification-home" className='thm-blu-btn text-white'>Continue</Link>
                 </div>
             </form>
         </div>
