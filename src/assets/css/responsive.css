@@ -1,0 +1,46 @@
+@media (max-width:1200px){
+    .login-btn .login-btn-lnk {
+        padding: 10px 35px;
+        font-size: 16px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .login-lft .login-btn .login-btn-lnk img {
+        width: 25px;
+    }
+    .login-lft h2 {
+        font-size: 30px;
+    }
+    .thm-gr-btn {
+        padding: 8px 18px;
+        font-size: 18px;
+    }
+    .create h4 span {
+        font-size: 20px;
+    }
+    .create .form-label {
+        font-size: 20px !important;
+    }
+    .thm-blu-btn {
+        font-size: 20px;
+    }
+    .banner-content h3 {
+        font-size: 35px;
+    }
+    .banner-sec h1 {
+        font-size: 40px;
+    }
+    .banner-sec {
+        height: 756px;
+    }
+    .bannr-btn a {
+        font-size: 25px;
+       
+    }
+    .newuser-cam-blank {
+        height: 280px;
+    }
+    .mainheader-slide {
+        width: auto;
+    }
+}
