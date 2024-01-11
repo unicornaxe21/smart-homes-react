@@ -23,7 +23,7 @@ function Propertydetails() {
           <Link to="#">
             <i className="fas fa-comment-alt"></i>
           </Link>
-          <Link to="#">
+          <Link to="/user-profile">
             <span>
               <img src={userimg} alt="" />
             </span>
