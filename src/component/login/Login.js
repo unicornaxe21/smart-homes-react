@@ -51,7 +51,7 @@ function Login() {
                         </div>
                         <div className='text-center'>
                             {/* <button className='thm-gr-btn'>Continue</button> */}
-                            <Link to="/create-account" className='thm-gr-btn'>Continue</Link>
+                            <Link to="/Otp" className='thm-gr-btn'>Continue</Link>
                         </div>
                     </form>
                 </div>

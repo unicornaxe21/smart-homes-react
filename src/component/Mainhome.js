@@ -16,7 +16,7 @@ function Mainhome() {
                             <h1>Get full control of your appliances by enjoying convenience with us.</h1>
                             <p>We are a platform, which has services so that it can help you with operating and securing your home from anywhere, anytime</p>
                             <div className='apliance-btn'>
-                                <Link to="">Go to dashboard</Link>
+                                <Link to="/create-account">Go to dashboard</Link>
                                 <Link to=""><i class="far fa-play-circle me-2"></i>Watch Demo</Link>
                             </div>
                         </div>
