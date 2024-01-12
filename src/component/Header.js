@@ -76,7 +76,7 @@ function Header() {
             </div>
             <div className='mainheader-slide'>
                 <button><i class="fas fa-chevron-left"></i></button>
-                    <span>Alekhya Apartments - 1</span>
+                    <span><Link to="/amenities">Alekhya Apartments - 1</Link></span>
                 <button><i class="fas fa-chevron-right"></i></button>
             </div>
          </div>   

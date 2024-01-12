@@ -28,6 +28,7 @@ import Welcome from './component/Welcome';
 import VerificationHome from './component/verification/VerificationHome';
 import CaptureFace from './component/verification/CaptureFace';
 import Mainhome from './component/Mainhome';
+import Frame from './component/Frame'
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
         <Route exact path="/congralution" component={Congralution} />
         <Route exact path="/welcome" component={Welcome} />
         <Route exact path="/" component={Mainhome} />
+        <Route exact path="/frame" component={Frame} />
         
         </Switch>
     </Router>

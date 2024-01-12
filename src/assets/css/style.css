@@ -435,18 +435,26 @@ input[type=number] {
    max-width: 100%;
    min-height: 100vh;
    background-color: #000;
-   padding: 4rem 1.8rem 0rem 1.8rem;
+   padding: 4rem 0 0rem 0;
 }
 
 .sidebar-list li {
    margin-bottom: 1rem;
+   padding-left: 1.8rem;
+   padding-right: 1.8rem;
+   padding-top: 0.2rem;
+   padding-bottom: 0.2rem;
+}
+
+.sidebar-list li.active {
+   background: grey;
 }
 
 .sidebar-list li em {
    font-style: normal;
    font-size: 22px;
    color: #fff;
-   margin-bottom: 2rem;
+   margin-bottom: 1.5rem;
    display: inline-block;
 }
 
@@ -1508,3 +1516,4 @@ input[type=number] {
 .tree-set .accordion-body .on.switch::after{background-color: #43CD12; }
 .tree-set .accordion-body .off.switch::after{background-color: #ff0000; }
 .tree-set .accordion-body .process.switch::after{background-color: #FF993C; }
+

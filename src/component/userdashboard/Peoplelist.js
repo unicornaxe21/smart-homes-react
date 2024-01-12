@@ -21,7 +21,7 @@ function Peoplelist() {
                         </div>
                         <div className='userlist-content'>
                             <h3>lorem ipsum</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         </div>
                         <div className='userlist-lnk'>
                             <a href="#">can edit <i className="fas fa-chevron-up ms-2"></i></a>
@@ -34,7 +34,7 @@ function Peoplelist() {
                         </div>
                         <div className='userlist-content'>
                             <h3>lorem ipsum</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         </div>
                         <div className='userlist-lnk'>
                             <a href="#">can edit <i className="fas fa-chevron-up ms-2"></i></a>
@@ -47,7 +47,7 @@ function Peoplelist() {
                         </div>
                         <div className='userlist-content'>
                             <h3>lorem ipsum</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         </div>
                         <div className='userlist-lnk'>
                             <a href="#">can edit <i className="fas fa-chevron-up ms-2"></i></a>
@@ -60,7 +60,7 @@ function Peoplelist() {
                         </div>
                         <div className='userlist-content'>
                             <h3>lorem ipsum</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         </div>
                         <div className='userlist-lnk'>
                             <a href="#">can edit <i className="fas fa-chevron-up ms-2"></i></a>
@@ -73,7 +73,7 @@ function Peoplelist() {
                         </div>
                         <div className='userlist-content'>
                             <h3>lorem ipsum</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         </div>
                         <div className='userlist-lnk'>
                             <a href="#" className='orng'>can edit <i className="fas fa-chevron-up ms-2"></i></a>

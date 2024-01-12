@@ -54,7 +54,7 @@ function Mainheader() {
                 <Link to="/login" className="btn">
                   Login
                 </Link>
-                <Link to="" className="btn">
+                <Link to="/login" className="btn">
                   Logout
                 </Link>
                 <Link to="/user-profile" className="usr-img">

@@ -41,13 +41,12 @@ function Amenities() {
    <div className='amenities-header-lft'>
       <ul className='mb-0'>
          <li className='navitem'>
-            <Link to="">
+            <Link to="/">
             <span><img src={user} alt=''/></span>
             </Link>
          </li>
          <li className='navitem'>
-            <Link className="nav-link">
-            Home Page</Link>
+            <Link to="/" className="nav-link">Home Page</Link>
          </li>
          <li className='navitem'>
             <div className="dropdown">

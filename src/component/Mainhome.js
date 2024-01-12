@@ -24,6 +24,7 @@ function Mainhome() {
                 </div>
             </div>
         </div>
+        
     </section>
     </>
   )
