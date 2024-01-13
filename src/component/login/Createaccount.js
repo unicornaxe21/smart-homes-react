@@ -42,7 +42,7 @@ function Createaccount() {
                     <Link to='/Otp' className='thm-blu-btn w-75'>Continue</Link>
                 </div>
                 <div className='mt-3'>
-                <p className='text-white'>Already have an account?   <Link to="/"> Sign In</Link></p>
+                <p className='text-white'>Already have an account?   <Link to="/login"> Sign In</Link></p>
                 </div>
             </form>
         </div>

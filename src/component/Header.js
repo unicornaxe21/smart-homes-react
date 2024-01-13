@@ -71,7 +71,7 @@ function Header() {
         <div className='mainheader-right'>
             <div className='mainheader-slide'>
                 <button><i class="fas fa-chevron-left"></i></button>
-                    <span>INDIA</span>
+                    <span><Link to="/selectcountry">INDIA</Link></span>
                 <button><i class="fas fa-chevron-right"></i></button>
             </div>
             <div className='mainheader-slide'>
