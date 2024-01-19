@@ -29,7 +29,7 @@ function CaptureFace() {
               <div className="col-lg-6">
                 <div className="capture">
                   <img src={capture} alt="" className="w-100 rounded" />
-                  <Link to="/register-success" className="cam-btn">
+                  <Link to="/property-detail" className="cam-btn">
                     Confirm
                   </Link>
                 </div>

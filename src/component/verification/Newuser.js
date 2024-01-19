@@ -60,7 +60,7 @@ function Newuser() {
                 </Link>
               </div>
               <div className="col-md-6 text-end">
-                <Link to="/" className="thm-blu-btn text-white">
+                <Link to="/register-success" className="thm-blu-btn text-white">
                   Next
                 </Link>
               </div>

@@ -18,7 +18,7 @@ function Registrationsuccess() {
             </div>
           </div>
           <div className="col-lg-12 text-end">
-            <Link to="/property-detail" className="thm-blu-btn text-white me-4">
+            <Link to="/welcome" className="thm-blu-btn text-white me-4">
               {" "}
               Next
             </Link>
